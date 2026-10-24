@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest><ApplicationIcon>..\..\assets\branding\tidy.ico</ApplicationIcon>
+    <AssemblyName>Tidy</AssemblyName><Version>0.1.0</Version><Product>Tidy</Product>
+    <UseWindowsForms>false</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tidy.Core\Tidy.Core.csproj" />
+    <Resource Include="..\..\assets\branding\tidy-logo.png" Link="Resources\tidy-logo.png" />
+    <Resource Include="..\..\assets\branding\tidy-icon.png" Link="Resources\tidy-icon.png" />
+    <Resource Include="..\..\assets\branding\tidy.ico" Link="Resources\tidy.ico" />
+    <Content Include="..\..\assets\branding\tidy-logo.png" Link="assets\branding\tidy-logo.png" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="..\..\assets\branding\tidy-icon.png" Link="assets\branding\tidy-icon.png" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="..\..\assets\branding\tidy.ico" Link="assets\branding\tidy.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

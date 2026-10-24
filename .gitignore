@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+/publish/
+/TestResults/
+/tests/.tmp/
+*.user
+*.suo
+.vs/
+*.zip
+*.log
